@@ -1,0 +1,34 @@
+{
+  "name": "robot",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@headlessui/vue": "^1.7.16",
+    "@heroicons/vue": "^2.1.1",
+    "@tauri-apps/api": "^1.5.2",
+    "element-plus": "^2.4.4",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.1.7",
+    "sass-loader": "^13.3.3",
+    "vue": "^3.3.4",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.5.8",
+    "@vitejs/plugin-vue": "^4.6.0",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "sass": "^1.69.6",
+    "tailwindcss": "^3.4.0",
+    "vite": "^5.0.0",
+    "vue3-perfect-scrollbar": "^1.6.1"
+  }
+}
